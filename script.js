@@ -18,7 +18,7 @@ function print(){
     let div=document.getElementById('me');
     
         let a=document.createElement("p");
-        a.innerHTML=`<p style="color:black;">${i} sending data to server...</p>`;
+        a.innerHTML=`<p style="color:gray;">${i} sending data to server...</p>`;
         div.appendChild(a);
         i++;
         window.scrollBy(1,50);
