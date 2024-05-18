@@ -1,9 +1,12 @@
 <h1 style="color:green;">MKBS HACKING SERVER</h1>
-<h3 style="color:gray;">You are in traped</h3>
-<p style="color:red;">hacking your devices and send data to mkbs server....</p>
-<p style="color:yellow;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quasi eos explicabo quae nulla ipsum architecto, accusantium repellendus cumque nam!</p>
+<h3 style="color:green;">You are in trapped</h3>
+<p style="color:green;">Hacking your devices and sending data to MKBS server...</p>
+<p style="color:green;">😎😎😎</p>
+<p style="color:green; font-weight: bold;">Access Granted </p>
+<p style="color:green; font-weight: bold;">fetching information from Android.........</p>
 
-<p style="color:yellow;font-weight: bold;">Selected Drive </p>
-    <p style="color:green;font-weight: bold;">/storage/emulated/0</p>
-    <p style="color:green;font-weight: bold;">/storage/sdcard</p>
-    <p style="color:green;font-weight: bold;">/storage/sdcard1</p>
+<p style="color:green; font-weight: bold;">Fetch Complete</p>
+
+<p id="done" style="color:green; font-weight: bold;">
+Sending.......
+</p>

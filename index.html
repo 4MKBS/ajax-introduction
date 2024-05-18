@@ -4,16 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AJAX</title>
+    <style>
+        body {
+            background-color: black;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        #demo {
+            width: 50%;
+            padding: 20px;
+            position: -webkit-sticky; /* For Safari */
+            position: fixed;
+            /* left: 100px; */
+            right: 300px;
+            /* margin-left: 300px; */
+            /* top: 0; */
+            z-index: 1000;
+            background-color:black;
+            color: rgb(19, 96, 4);
+            border: 3px solid green;
+        }
+        button {
+            padding: 10px;
+            background-color: green;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #me {
+            background-color: black;
+            padding: 20px;
+            margin-top: 20px;
+            height: 200px; /* For demonstration purposes to show scrolling */
+            color: white; /* Ensure text is visible on dark background */
+            /* overflow-y: scroll; */
+            /* z-index: 1; */
+            /* position: static; */
+        }
+    </style>
 </head>
-<body style="background-color: black;color: gray;">
+<body>
     <div id="demo">
         <h1>AJAX introduction</h1>
-        <p><button onclick="loaddata()">Click to Get AJAX Data</button></p>
+        <p>AJAX is not a programming language.</p>
+        <p>AJAX just uses a combination of:</p>
+        <ul>
+            <li>A browser built-in XMLHttpRequest object (to request data from a web server)</li>
+            <li>JavaScript and HTML DOM (to display or use the data)</li>
+        </ul>
+        <button onclick="loaddata()">Click to Get AJAX Data</button>
     </div>
-    <!-- <div id="ok" onclick="p()" >ok</div> -->
-    <!-- <button onclick="print();">click</button> -->
-    <div id="me"></div>
-    <!-- titititititi -->
-    <script src="/script.js"></script>
+
+    <div id="me"></div> 
+
+    <script src="script.js"></script>
 </body>
 </html>
