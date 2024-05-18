@@ -8,7 +8,7 @@ function loaddata() {
         container.innerHTML = xhr.responseText;
     };
 
-    xhr.open("GET", "/data.txt");
+    xhr.open("GET", "/ajax-introduction/data.txt");
     xhr.send();
 
     don = setInterval(print, 50);
